@@ -34,7 +34,7 @@ const Day = props => {
  }
 }
 
-Day.PropTypes = {
+Day.propTypes = {
  days: PropTypes.arrayOf(PropTypes.object).isRequired,
  routerProps: PropTypes.arrayOf(PropTypes.object).isRequired
 }

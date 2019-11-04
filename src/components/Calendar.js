@@ -29,7 +29,7 @@ const Calendar = props => {
  }
 }
 
-Calendar.PropTypes = {
+Calendar.propTypes = {
  days: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
