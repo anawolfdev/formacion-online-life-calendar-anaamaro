@@ -6,7 +6,6 @@ import Editor from './components/Editor';
 import Day from './components/Day';
 import getData from './services/getData';
 import './App.css';
-
 class App extends React.Component {
 	constructor(props) {
 		super(props);
